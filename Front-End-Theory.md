@@ -1,0 +1,172 @@
+- Tell us your approach if you're asked to build a Design System for your team and company?SystemDesign
+- Do you have any questions to ask about our company, team or anything?Behavioral
+- What is the response body of HTTP status code ?Network
+- What is the difference between `display:none` and `visibility:hidden`CSS
+- please briefly introduce yourselfGeneral
+- Tell us the differences about <b> <strong> <i> <em>HTML
+- What is the different between '^--' and '~--' in package-jsonNPM
+- What is the difference between `null` and `undefined` ? Which one should I use?JavaScript
+- How do you troubleshoot when user reports a blank screen on you web page?General
+- What is the difference between function declaration and function expression?JavaScript
+- explain iterators and generatorsJavaScript
+- How to turn HTML web page in to an image?General
+- What is the difference between `git merge` and `git rebase`?General
+- What technologies are you learning right now? and what do you plan to learn?Behavior
+- will the sheep be eaten?Fun
+- what is `transform:translateZ()` for?CSS
+- how to improve performance of a webpage of a lot of images?performance
+- How would you add offline support to your web app?JavaScript
+- why - + - !== - ? How to deal with float precision in your apps?JavaScript
+- What is Generator and what is it useful for?JavaScript
+- What is ms tap delay for touch device? How to remove itMobile
+- Explain the structure of a HTTP messageHTTP
+- Tell me more about Unicode and UTF-General
+- what is base ?network
+- What is Same-Origin policy ? How to share Cross-Origin resource?HTTP
+- what is 'use strict' for?JavaScript
+- how to implement user login?Auth
+- What is the difference between Vue and React? How would you choose?Framework
+- How does responsiveness work?CSS
+- Are you familiar with webpack? how does it work?DevTool
+- What does Object-freeze() do?JavaScript
+- how does `clear` in CSS work?CSS
+- What would be the principles if you are to lead a relatively large Front-End project?General
+- What is Block Formatting Context?CSS
+- What does`flex:` mean?CSS
+- How to achieve responsiveness in your web app?CSS
+- What attributes do Cookies have?HTTP
+- is Array-prototype-sort() stable in JavaScript?JavaScript
+- can you tell the difference between MVC, MVVM and Flux?Architecture
+- What is the differencee between Symmetric and Asymmetric Encryption?Security
+- what is the difference between cache-control:no-cache and cache-control:no-store?HTTP
+- What is the difference between modules and standard scripts?JavaScript
+- how to create a responsive Square with CSS?CSS
+- Explain how position:sticky worksCSS
+- Tell us about CSS keywords: initial/inherit/unset/revertCSS
+- How would you debug a web page and find the bad code?GeneralAmazon
+- please explain the rd parameter of EventTarget-addEventListener()WebAPI
+- How to implement pagination in Front End?Architecture
+- what is Open Redirect problem? How to solve it?Security
+- Explain the common CSS Relative length unitsCSS
+- How to center an element vertically?CSSAmazon
+- What have you learned from past professional working experiences?Behavioral
+- What is the difference between `async` and `defer` on script tag?Browser
+- What is Skeleton Screen? How to implement them?Architecture
+- What is JWT(JSON Web Token)?JavaScript
+- What is Singleton Pattern?JavaScript
+- What is single sign-on? How to implement it?Architecture
+- What is CSS pixel and device pixel?CSS
+- How do you create retina hairline(-px line in CSS)?CSS
+- How do you target your web app to different screen sizes?Architecture
+- What is the newest web technique that you are interested in-Behavioral
+- What is your strength and weakness-Behavioral
+- Tell about most important decision in your life-Behavioral
+- Which environment is best to you to workBehavioral
+- What's the most challenging thing you've done?Behavioral
+- Tell me about your current role-Behavioral
+- Tell me a time you disagreed with your supervisor-Behavioral
+- What teams you want to be working in?Behavioral
+- What would you do if your progress is dragged own by other teams?Behavioral
+- Your decision proved to be wrong, how do you receive feedback?Behavioral
+- What is that your team upset you the most?Behavioral
+- Tell me a time you motivated yourself and your team members-Behavioral
+- How do you handle a challenge?Behavioral
+- Tell me a time you acted beyond your responsibility-Behavioral
+- Tell me a goal you set but couldn't manage to achieve-Behavioral
+- Tell me a goal you set and you managed to achieve-Behavioral
+- Tell me a time you handled pressure-Behavioral
+- Can you do a retrospective on your current project?Behavioral
+- Why Front End?Behavioral
+- Why us?Behavioral
+- What is the best advice you have received?Behavioral
+- How do you give and receive feedback?Behavioral
+- Tell me a time you handled conflict-Behavioral
+- Tell me a time you achieved something through good collaboration-Behavioral
+- Tell me about a time that you failed-Behavioral
+- What are you proud of the most?Behavioral
+- What were the best things you’ve ever created?Behavioral
+- How to create triangles with CSS?CSS
+- How to create a box with fixed Aspect Ratio in CSS?CSS
+- What is the difference between reset-css and Normalize-cssCSS
+- How does client-side routing work?WebAPI
+- Long Polling vs Sever-Sent Event vs WebSocketNetwork
+- How does HMR(Hot Module Replacement) work in Webpack?Webpack
+- Tell us a time you acted beyond your comfort zone-Behavioral
+- What is difference between `for --- of` and `forEach`JavaScript
+- What is the difference between for---in and Object-keys?JavaScript
+- What is Process and what is ThreadGeneral
+- How does @import works in CSS? What is the pros and consCSS
+- How do you do SEO in your project?General
+- How do you do unit test & ee test in your web projects?Architecture
+- How to implement lazy load for images?Architecture
+- What is Observer Pattern?JavaScript
+- What is Proxy Pattern?JavaScript
+- Tell us the difference between common image format on the web-General
+- What is the difference between setTimeout and setInterval?JavaScript
+- How to find the Performance Bottleneck of a web app?Performance
+- What is Decorator PatternJavaScript
+- What is the difference between ES Class and ES implementation?JavaScript
+- What is Factory Pattern?JavaScript
+- What is Promise ? How to resolve a bunch of Promises in order?JavaScript
+- How to publish an NPM packageJavaScript
+- When do we need to use non-strict mode?JavaScript
+- What is Array-Like Objects in JavaScript?JavaScript
+- What does a HTTP request look like?Network
+- Explain common HTTP request methods? What are they used for?Network
+- How do you track errors from your web application?Architecture
+- Explain the common performance metricsPerformance
+- What is Micro Frontends? What does it try to solve?Architecture
+- What are WeakSet and WeakMap?JavaScript
+- What is loader and plugin in Webpack?Webpack
+- What is SSR? What is the pros and cons?JavaScript
+- What is React Hooks? What are the pros and cons?React
+- What is the pros and cons of Redux?Redux
+- What is HOC(Higher Order Component)?JavaScriptReact
+- What is Virtual DOM? How does it work?JavaScript
+- Explain Event Loop in Browser and in Node-jsJavaScript
+- What is memory leak ? How to debug and prevent it?JavaScript
+- How Garbage collection in JavaScript works?JavaScript
+- What are Web Workers and Service Workers ?WebAPI
+- What is the difference between Repaint and Reflow?Browser
+- What is `keep-alive` in Vue-js useful for?Vue-js
+- Can you explain what React Fiber is?React
+- What are Pseudo Class and Pseudo Element?CSS
+- How could you do to improve performance in React?React
+- What is the best gift you have ever given or received ?Behavioral
+- What is XSS? How to prevent it?Security
+- Explain common HTTP response status codeNetwork
+- What is CSRF? How to prevent it?Security
+- Cookie vs localStorage vs sessionStorageBrowser
+- Explain `async` and `await`JavaScript
+- What is the Pros and Cons of Node-jsNode-js
+- Explain the lifecycle of Vue instanceVue
+- What is the difference between Express and KoaJavaScriptLibrary
+- How to detect crash of a web page?Browser
+- Explain Box ModelCSS
+- What is CDN? Why do we use it?Network
+- what is the angle between the hours and the minutes hands at :Fun
+- Explain TCP -Way Handshake processNetwork
+- How to communicate between Webview and Native Client?Webview
+- What is HTTP Cache? How does it work?Network
+- What is DNS? How does it work?Network
+- What happens when you type a URL in browser's address bar?Browser
+- What does header `Connection:Keep-Alive` do?Network
+- Explain `macrotask` and `microtask`JavaScript
+- Explain `new` operator in JavaScript- What exactly does it do?JavaScript
+- How does `instanceOf` work? difference with `typeof`JavaScript
+- `Array-prototype-forEach()` vs `Array-prototype-map()`JavaScript
+- Explain the differences between AMD, CommonJS and ES modulesJavaScript
+- What is Event Delegation?DOM
+- How does HTTPS work?Network
+- How HTTP works ? What is HTTP/?Network
+- what is the difference between `block` and `inline`?CSS
+- explain how different CSS `position` property worksCSS
+- difference between `==` and `===`JavaScript
+- Map vs Object vs Set vs ArrayJavaScript
+- Explain the concept of Promise to a -year-oldJavaScript
+-`var` vs `let` vs `const`JavaScript
+- what is Closure and how does it work?JavaScript
+- explain `this` keyword in JavaScriptJavaScript
+- What is Prototypal Inheritance? How does it work?JavaScript
+- What are the time and space complexity for sorting algorithmsAlgorithm
+
