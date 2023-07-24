@@ -1,3 +1,7 @@
+// Install Lodash 
+
+// ** npm instal lodash
+
 // Import lodash
 const _ = require('lodash');
 
