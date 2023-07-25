@@ -1,0 +1,14 @@
+{
+  "name": "array_utils",
+  "version": "1.0.0",
+  "description": "",
+  "main": "arrayutility.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "array-utils-mayur": "^1.0.1"
+  }
+}
