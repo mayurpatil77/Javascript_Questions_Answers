@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    * {
+        font-family: "Lexend Deca Medium";
+    }
+
+    body {
+        height: 200vh;
+    }
+
+    section {
+        position: fixed;
+    }
+
+    p {
+        font-size: 3rem;
+    }
+</style>
+<body onscroll="showCount()">
+<section>
+    <p class="n_count">Normal Count</p>
+    <p class="t_count">Throttle Count</p>
+    <p class="d_count">Debounce Count</p>
+</section>
+
+<script>
+    // Selecting elements to display counts
+    const normal_div = document.querySelector('.n_count');
+    const throttle_div = document.querySelector('.t_count');
+    const debounce_div = document.querySelector('.d_count');
+
+    // Variables to hold the counts
+    let n_cnt = 0; // For Normal Count
+    let t_cnt = 0; // For Throttle Count
+    let d_cnt = 0; // For Debounce Count
+
+    // Flag to control the Throttle Count
+    let isScrolling = true;
+
+    // Function to increment the Normal Count and update the display
+    const normalCount = () => {
+        n_cnt++;
+        normal_div.innerHTML = `Normal Count: ${n_cnt}`;
+    }
+
+    // Function to handle the Throttle Count
+    const throttleCount = () => {
+        if (isScrolling === true) {
+            t_cnt++;
+            throttle_div.innerHTML = `Throttle Count: ${t_cnt}`;
+
+            // Set the flag to false, preventing immediate count increment
+            isScrolling = false;
+
+            // After 1000ms (1 second), set the flag back to true for the next scroll event
+            setTimeout(() => {
+               isScrolling = true;
+            }, 1000)
+        }
+    }
+
+    // Variable to hold the timer ID for Debounce Count
+    let interval;
+
+    // Function to handle the Debounce Count
+    const debounceCount = () => {
+        // Clear the previous timer (if any) to avoid multiple increments
+        clearTimeout(interval);
+
+        // Set a new timer to increment the count after 1000ms (1 second)
+        interval = setTimeout(() => {
+            d_cnt++;
+            debounce_div.innerHTML = `Debounce Count: ${d_cnt}`;
+        }, 1000);
+    }
+
+    // Function to handle the scroll event and trigger counting for all techniques
+    const showCount = () => {
+        normalCount();
+        throttleCount();
+        debounceCount();
+    }
+</script>
+
+</body>
+</html>
