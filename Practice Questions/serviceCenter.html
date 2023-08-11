@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service Center</title>
+</head>
+<body>
+
+
+    <!-- <h1>Problem Statement</h1> -->
+
+
+    <!-- program for a service center by following given Rules and Guide lines.
+
+    * This service center only accepts 2 wheeler ,3 wheeler & 4 wheeler . If any other vehicle 
+    came to you , you have to show a message that "this service center is not accepting
+    other than 2 wheeler, 3 wheeler and 4 wheeler".
+    
+    * If the vehicle is 2 ,3 & 4 only then you have to ask the user what is the age of the vehicle.
+    
+    * If the age your vehicle is above 8 months then only accept the service center 
+    otherwise you have to show a message that "your vehicle servie will done after a while".
+    
+    * If the vehicle age is greater than 8 months then show options to the user on the console.
+    
+    * Options:
+    
+    1)Enter 1 for tyre problem
+    2)Enter 2 for fuel problem
+    3)Enter 3 for engine issue
+    4)Enter 4 for general services
+    
+    * If the user enter 1 as input so it is tyre problem statement so you have to show a message "how many tyres you are facing the issue ?", based on the issue on the no of tyres,
+    generate the bill.
+    
+    * For example tyre cost Rs. 400 , if the user providing 3 tyre then the bill should be
+    generated as Rs. 1200 in below format.
+    
+    Name of the owener
+    Name of the bike
+    Issue
+    Bill
+    
+    * For fuels problem cost is Rs.1500
+    * For engine issue cost is Rs.5000
+    * For general servicing cost is Rs.1000
+    
+    And generate the bill in the above format. -->
+
+
+
+
+    <script>
+
+
+function calculateBill(issue, quantity) {
+    let cost = 0;
+    if (issue === 1) {
+        cost = quantity * 400;
+    } else if (issue === 2) {
+        cost = 1500;
+    } else if (issue === 3) {
+        cost = 5000;
+    } else if (issue === 4) {
+        cost = 1000;
+    }
+    return cost;
+}
+
+function serviceCenterlacallkela() {
+    const vehicleType = prompt("Enter your vehicle type (2/3/4 wheeler):");
+    if (vehicleType !== "2" && vehicleType !== "3" && vehicleType !== "4") {
+        console.log("This service center is not accepting other than 2 wheeler, 3 wheeler, and 4 wheeler.");
+        return;
+    }
+
+    const vehicleAge = parseFloat(prompt("Enter your vehicle age (in months):"));
+    if (vehicleAge <= 8) {
+        console.log("Your vehicle service will be done after a while.");
+        return;
+    }
+
+    const issue = parseInt(prompt(`Options:
+    1) Enter 1 for tyre problem
+    2) Enter 2 for fuel problem
+    3) Enter 3 for engine issue
+    4) Enter 4 for general services`));
+    
+    let quantity = 0;
+    
+    if (issue === 1) {
+        quantity = parseInt(prompt("How many tyres are facing the issue?"));
+    }
+
+    const ownerName = prompt("Enter the owner's name:");
+    const bikeName = prompt("Enter the name of the bike:");
+
+    const bill = calculateBill(issue, quantity);
+
+    console.log(`Name of the owner: ${ownerName}`);
+    console.log(`Name of the bike: ${bikeName}`);
+    console.log(`Issue: ${issue}`);
+    console.log(`Bill: Rs. ${bill}`);
+}
+
+serviceCenterlacallkela();
+
+    </script>
+
+</body>
+</html>
